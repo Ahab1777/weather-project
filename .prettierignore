@@ -1,0 +1,18 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore build/output directories
+dist/
+build/
+out/
+
+# Ignore hidden files and directories
+.*
+!.gitignore
+
+# Ignore specific file types
+*.log
+*.min.js
+
+
+src/deleteme.js
