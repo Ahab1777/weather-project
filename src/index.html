@@ -12,20 +12,27 @@
             <input type="text" name="city" id="city" placeholder="City name">
             <button type="submit">Search</button>
         </form>
+        <div class="unit-selector-container">
+            <label for="unit-selector">Choose the unit</label>
+            <select name="unit-selector" id="unit-selector">
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="celsius">Celsius</option>
+            </select>
+        </div>
         <div class="info-container">
             <h2 class="city-name">London</h2>
             <div class="today-container">
                 <div class="info-cell">
                     <h3>Current Temperature</h3>
-                    <p class="temperature">20</p>
+                    <p class="today-temperature temperature-number" data-unit="fahrenheit" id="test-id">20<span class="temperature-unit">°F</span></p>
                 </div>
                 <div class="info-cell">
                     <h3>Minimum Temperature</h3>
-                    <p class="min-temperature">15</p>
+                    <p class="min-temperature temperature-number" data-unit="fahrenheit">15<span class="temperature-unit">°F</span></p>
                 </div>
                 <div class="info-cell">
                     <h3>Maximum Temperature</h3>
-                    <p class="max-temperature">25</p>
+                    <p class="max-temperature temperature-number" data-unit="fahrenheit">25<span class="temperature-unit">°F</span></p>
                 </div>
                 <div class="info-cell">
                     <h3>Humidity</h3>
@@ -34,6 +41,36 @@
                 <div class="info-cell">
                     <h3>Precipitation</h3>
                     <p class="precipitation">10%</p>
+                </div>
+            </div>
+            <div class="week-container">
+                <div class="day-container">
+                    <h3 class="next-week-date">Monday</h3>
+                    <p class="next-week-temperature temperature-number" data-unit="fahrenheit">20<span class="temperature-unit">°F</span></p>
+                </div>
+                <div class="day-container">
+                    <h3 class="next-week-date">Tuesday</h3>
+                    <p class="next-week-temperature temperature-number" data-unit="fahrenheit">20<span class="temperature-unit">°F</span></p>
+                </div>
+                <div class="day-container">
+                    <h3 class="next-week-date">Wednesday</h3>
+                    <p class="next-week-temperature temperature-number" data-unit="fahrenheit">20<span class="temperature-unit">°F</span></p>
+                </div>
+                <div class="day-container">
+                    <h3 class="next-week-date">Thursday</h3>
+                    <p class="next-week-temperature temperature-number" data-unit="fahrenheit">20<span class="temperature-unit">°F</span></p>
+                </div>
+                <div class="day-container">
+                    <h3 class="next-week-date">Friday</h3>
+                    <p class="next-week-temperature temperature-number" data-unit="fahrenheit">20<span class="temperature-unit">°F</span></p>
+                </div>
+                <div class="day-container">
+                    <h3 class="next-week-date">Saturday</h3>
+                    <p class="next-week-temperature temperature-number" data-unit="fahrenheit">20<span class="temperature-unit">°F</span></p>
+                </div>
+                <div class="day-container">
+                    <h3 class="next-week-date">Sunday</h3>
+                    <p class="next-week-temperature temperature-number" data-unit="fahrenheit">20<span class="temperature-unit">°F</span></p>
                 </div>
             </div>
         </div>

@@ -50,6 +50,7 @@ function filterWeatherInfo(data) {
     conditionsForNextWeek,
     currentConditions,
     mainTodayInfo,
+    currentUnit: "fahrenheit",
   };
 }
 
